@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = " Co-Ordinators & Managers";
+}
+
+
+    <h2 class="display-4">Programme Coordinators & Academic Managers</h2>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pending Claims</title>
+
+    </head>
+    <body>
+        
+        <div class="claim">
+            <div class="claim-header">Claim #12345</div>
+            <div class="claim-details">
+                <label for="lecturer">Lecturer Name:</label><br>
+                <input type="text" id="lecturer" name="lecturer"><br>
+                <label for="date">Claim Date:</label><br>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="claim-actions">
+            <label for="decision">Select an Option:</label><br>
+            <select id="decision" name="decision" required>
+                <option value="">Options</option>
+                <option value="accept">Approved</option>
+                <option value="decline">Rejected</option>
+            </select><br>
+                <label for="description">Reasons for Rejection:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
+            </div>
+        </div>
+    <div class="button-group">
+        <button type="button">Submit</button>
+         </div>
+
+        
+    </body>
+    </html>
+
+
